@@ -50,7 +50,7 @@ void onCameraPreviewEvent(){
 }
 
 void mousePressed(){
-  if(mouseY < height / 5){
+  if(mouseY < height/5){
     if(mouseX >= 0 && mouseX <= width){
       if(camera.isStarted()){
         camera.stop();
